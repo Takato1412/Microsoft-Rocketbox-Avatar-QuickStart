@@ -27,11 +27,13 @@ Oculus Integration 以外に、以下のアセットを使用するため、イ�
 ### 3. 手製の unitypackage をインポート
 リリースノートから [MSRAQuickStart.unitypackage](https://github.com/Takato1412/Microsoft-Rocketbox-Avatar-QuickStart/releases/tag/v2022.0805) をダウンロードし、インポートしてください。
 内容は以下の通りです。
-- `MicrosoftRocketboxAvatars/` : Microsoft Rocketbox Avatar Library から男性アバタ (Male_Adult_08) と女性アバタ (Female_Adult_01) の3Dモデルが一体ずつ入っています。
-- `MicrosoftRocketboxMovebox/` : [MoveBox-for-Microsoft-Rocketbox](https://github.com/microsoft/MoveBox-for-Microsoft-Rocketbox) を改変した、IKとハンドトラッキング用のスクリプトが入っています。
-- `MirrorReflection/` : VR用の鏡。Unityフォーラムの[スレッド](https://forum.unity.com/threads/mirror-reflections-in-vr.416728/)を元に作成しました。
-- `MizuhoLab/` : その他、自作のスクリプトやプレファブが入っています。
-- `Scenes/` : サンプルシーン
+| Directory | Description |
+| :--- | :--- |
+|`MicrosoftRocketboxAvatars/` | Microsoft Rocketbox Avatar Library から男性アバタ (Male_Adult_08) と女性アバタ (Female_Adult_01) の3Dモデルが一体ずつ入っています。|
+| `MicrosoftRocketboxMovebox/` | [MoveBox-for-Microsoft-Rocketbox](https://github.com/microsoft/MoveBox-for-Microsoft-Rocketbox) を改変した、IKとハンドトラッキング用のスクリプトが入っています。|
+| `MirrorReflection/` | VR用の鏡。Unityフォーラムの[スレッド](https://forum.unity.com/threads/mirror-reflections-in-vr.416728/)を元に作成しました。|
+| `MizuhoLab/` | その他、自作のスクリプトやプレファブが入っています。|
+| `Scenes/` | サンプルシーンが入っています。|
 
 ### 4. 実行
 任意の Scene に `Assets/MizuhoLab/Prefabs/OVRCameraRig_Plus/OVRCameraRig+MSRA.prefab` を Drag and Drop すると、**Touch コントローラを用いた三点トラッキング**を試すことが出来ます。
