@@ -10,11 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-# Ignore Assets
-/Assets/Plugins/RootMotion/
-/Assets/SAColliderBuilder/
-/Assets/Oculus/
-/Assets/TextMesh Pro/
+# Ignore Assets by default
+/Assets/
+# Keep Assets mentioned below are kept
+/Assets/MicrosoftRocketboxAvatars/
+/Assets/MicrosoftRocketbocMovebox/
+/Assets/MirrorReflection/
+/Assets/MizuhoLab/
+/Assets/Scenes/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
