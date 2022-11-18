@@ -4,7 +4,7 @@
 Microsoft が 115 体のアバタからなるデータベース [Microsoft Rocketbox Avatar Library](https://github.com/microsoft/Microsoft-Rocketbox) を公開しています（2022/11//18）。
 すでに多くのVR研究者がこれを採用しており、本データセットを活用することは研究同士の比較や再現可能性の向上に役立つと考えられます。
 
-本クイックスタートでは、主にアバタへの Embodiment を目的として、Meta Quest 2 と Microsoft Rocketbox Avatar を組み合わせる方法を紹介します。
+本クイックスタートでは、**主にアバタへの Embodiment を目的として、Meta Quest 2 と Microsoft Rocketbox Avatar を組み合わせて使用する方法**を紹介します。
 現在までに実装できている項目は、以下の通りです。
 
 - Touch コントローラを使って、Microsoft Rocketbox Avatar を三点トラッキングで動かす。
@@ -26,7 +26,7 @@ Oculus Integration 以外に、以下のアセットを使用するため、イ�
 
 ### 3. 手製の unitypackage をインポート
 リリースノートから `MSRAQuickStart.unitypackage` をダウンロードし、インポートしてください。
-`Assets/` に以下が取り込まれます。
+内容は以下の通りです。
 - `MicrosoftRocketboxAvatars/` : Microsoft Rocketbox Avatar Library から男性アバタ (Male_Adult_08) と女性アバタ (Female_Adult_01) の3Dモデルが一体ずつ入っています。
 - `MicrosoftRocketboxMovebox/` : [MoveBox-for-Microsoft-Rocketbox](https://github.com/microsoft/MoveBox-for-Microsoft-Rocketbox) を改変した、IKとハンドトラッキング用のスクリプトが入っています。
 - `MirrorReflection/` : VR用の鏡。Unityフォーラムの[スレッド](https://forum.unity.com/threads/mirror-reflections-in-vr.416728/)を元に作成しました。
@@ -34,10 +34,10 @@ Oculus Integration 以外に、以下のアセットを使用するため、イ�
 - `Scenes/` : サンプルシーン
 
 ### 4. 実行
-任意の Scene に `Assets/MizuhoLab/Prefabs/OVRCameraRig_Plus/OVRCameraRig+MSRA.prefab` を Drag and Drop すると、Touch コントローラを用いた三点トラッキングを試すことが出来ます。
+任意の Scene に `Assets/MizuhoLab/Prefabs/OVRCameraRig_Plus/OVRCameraRig+MSRA.prefab` を Drag and Drop すると、**Touch コントローラを用いた三点トラッキング**を試すことが出来ます。
 `Assets/Scenes/MicrosoftRocketboxAvatar_FinalIK.scene` がサンプルシーンです。
 
-任意の Scene に `Assets/MizuhoLab/Prefabs/OVRCameraRig_Plus/OVRCameraRig+MSRAwithHandTracking.prefab` を Drag and Drop すると、Quest Hand Tracking を用いた三点+ハンドトラッキングを試すことが出来ます。
+任意の Scene に `Assets/MizuhoLab/Prefabs/OVRCameraRig_Plus/OVRCameraRig+MSRAwithHandTracking.prefab` を Drag and Drop すると、**Quest Hand Tracking を用いた三点+ハンドトラッキング**を試すことが出来ます。
 `Assets/Scenes/MicrosoftRocketboxAvatar_HandTracking.scene` がサンプルシーンです。
 
 サンプルシーンには、以下の機能を持ったボタンも配置していますので、参考にしてください。
@@ -49,7 +49,7 @@ Oculus Integration 以外に、以下のアセットを使用するため、イ�
 https://tmizuho.notion.site/How-to-use-Microsoft-Rocketbox-Avatar-bd1eb73e0d4f417bbbedb7b3ba66a173
 
 ## Summary
-Microsoft Rocketbox Avatar に Meta Quest 2 を用いて Embodiment するシステムを作成しました。様々なVR研究において、本クイックスタートが実験システム構築の手間軽減に貢献できたらと思います。
+**Microsoft Rocketbox Avatar に Meta Quest 2 を用いて Embodiment するシステム**を作成しました。様々なVR研究において、本クイックスタートが実験システム構築の手間軽減に貢献できたらと思います。
 
 将来的には、Meta Quest Pro に対応し、以下の項目も実装したいと考えています。
 - リップシンク、フェイストラッキング
