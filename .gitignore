@@ -59,5 +59,7 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Ignore Assets
-Plugins/RootMotion/
-SAColliderBuilder/
+/Assets/Plugins/RootMotion/
+/Assets/SAColliderBuilder/
+/Assets/Oculus/
+/Assets/TextMesh` Pro/
