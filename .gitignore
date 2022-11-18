@@ -11,13 +11,17 @@
 /[Mm]emoryCaptures/
 
 # Ignore Assets by default
-/Assets/**/*
+#/Assets/**/*
 # Keep Assets mentioned below are kept
-!/Assets/MicrosoftRocketboxAvatars/
-!/Assets/MicrosoftRocketboxMovebox/
-!/Assets/MirrorReflection/
-!/Assets/MizuhoLab/
-!/Assets/Scenes/
+#!/Assets/MicrosoftRocketboxAvatars/
+#!/Assets/MicrosoftRocketboxMovebox/
+#!/Assets/MirrorReflection/
+#!/Assets/MizuhoLab/
+#!/Assets/Scenes/
+/Assets/Oculus/
+/Assets/Plugins/RootMotion/
+/Assets/SAColliderBuilder/
+/Assets/TextMesh` Pro/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
