@@ -11,7 +11,7 @@
 /[Mm]emoryCaptures/
 
 # Ignore Assets by default
-/Assets/
+/Assets/*
 # Keep Assets mentioned below are kept
 !/Assets/MicrosoftRocketboxAvatars/
 !/Assets/MicrosoftRocketbocMovebox/
