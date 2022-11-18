@@ -18,13 +18,15 @@
 #!/Assets/MirrorReflection/
 #!/Assets/MizuhoLab/
 #!/Assets/Scenes/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Ignore these Assets
 /Assets/Oculus/
 /Assets/Plugins/RootMotion/
 /Assets/SAColliderBuilder/
 /Assets/TextMesh` Pro/
-
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
