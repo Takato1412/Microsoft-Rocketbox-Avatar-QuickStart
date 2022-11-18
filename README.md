@@ -25,7 +25,7 @@ Oculus Integration 以外に、以下のアセットを使用するため、イ�
 - [SAColliderBuilder](https://assetstore.unity.com/packages/tools/sacolliderbuilder-15058): 無料アセット。アバタの形に沿うようにコライダを生成し、外界とのインタラクションを可能にします。
 
 ### 3. 手製の unitypackage をインポート
-リリースノートから `MSRAQuickStart.unitypackage` をダウンロードし、インポートしてください。
+リリースノートから [MSRAQuickStart.unitypackage](https://github.com/Takato1412/Microsoft-Rocketbox-Avatar-QuickStart/releases/tag/v2022.0805) をダウンロードし、インポートしてください。
 内容は以下の通りです。
 - `MicrosoftRocketboxAvatars/` : Microsoft Rocketbox Avatar Library から男性アバタ (Male_Adult_08) と女性アバタ (Female_Adult_01) の3Dモデルが一体ずつ入っています。
 - `MicrosoftRocketboxMovebox/` : [MoveBox-for-Microsoft-Rocketbox](https://github.com/microsoft/MoveBox-for-Microsoft-Rocketbox) を改変した、IKとハンドトラッキング用のスクリプトが入っています。
