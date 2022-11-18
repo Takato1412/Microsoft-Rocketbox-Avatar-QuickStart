@@ -16,12 +16,16 @@
 # Ignore these Assets
 /Assets/Oculus/
 /Assets/Oculus.meta
+/Assets/Plugins/
+/Assets/Plugins.meta
 /Assets/Plugins/RootMotion/
 /Assets/Plugins/RootMotion.meta
+/Assets/Resources/
+/Assets/Resources.meta
 /Assets/SAColliderBuilder/
 /Assets/SAColliderBuilder.meta
-/Assets/TextMesh` Pro/
-/Assets/TextMesh` Pro.meta
+/Assets/TextMesh\ Pro/
+/Assets/TextMesh\ Pro.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
