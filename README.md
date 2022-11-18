@@ -11,7 +11,7 @@ Microsoft が 115 体のアバタからなるデータベース [Microsoft Rocke
 - Quest の Hand Tracking 機能を使って、Microsoft Rocketbox Avatar を三点 + ハンドトラッキングで動かす。
 - その他、VR内での鏡やボタンなどのUIも、副次的に使えるようになる。
 
-![demo_handtracking](https://gyazo.com/37bbc4bc9ca560f47bfc6c796decd411)
+https://user-images.githubusercontent.com/40706341/202663909-6ec48c7d-7cd8-4836-8456-8e8a71f94dc8.mp4
 
 将来的には、以下の項目も実装したいと考えています。
 
