@@ -13,11 +13,6 @@ Microsoft が 115 体のアバタからなるデータベース [Microsoft Rocke
 
 https://user-images.githubusercontent.com/40706341/202663909-6ec48c7d-7cd8-4836-8456-8e8a71f94dc8.mp4
 
-将来的には、以下の項目も実装したいと考えています。
-
-- リップシンク、フェイストラッキング
-- フルボディトラッキング
-
 ## Quick Start
 ### 1. Unity プロジェクトの作成と Meta Quest 2 用のセットアップ
 以下のサイトを参考に、Unity のセットアップをしてください。
@@ -44,3 +39,20 @@ Oculus Integration 以外に、以下のアセットを使用するため、イ�
 
 任意の Scene に `Assets/MizuhoLab/Prefabs/OVRCameraRig_Plus/OVRCameraRig+MSRAwithHandTracking.prefab` を Drag and Drop すると、Quest Hand Tracking を用いた三点+ハンドトラッキングを試すことが出来ます。
 `Assets/Scenes/MicrosoftRocketboxAvatar_HandTracking.scene` がサンプルシーンです。
+
+サンプルシーンには、以下の機能を持ったボタンも配置していますので、参考にしてください。
+- アバタを切り替える
+- アバタの身長をユーザの身長に合わせて拡大・縮小する
+
+### 5. 拡張のヒント
+詳細な実装の過程などは以下のページに示していますので、参考にしてください。
+https://tmizuho.notion.site/How-to-use-Microsoft-Rocketbox-Avatar-bd1eb73e0d4f417bbbedb7b3ba66a173
+
+## Summary
+Microsoft Rocketbox Avatar に Meta Quest 2 を用いて Embodiment するシステムを作成しました。様々なVR研究において、本クイックスタートが実験システム構築の手間軽減に貢献できたらと思います。
+
+将来的には、Meta Quest Pro に対応し、以下の項目も実装したいと考えています。
+- リップシンク、フェイストラッキング
+- フルボディトラッキング
+
+また、同じく Embodiment を目的としたクイックスタートプログラムとして [QuickVR](https://github.com/eventlab-projects/com.quickvr.quickbase) が先日公開されました。こちらはより汎用性が高く（Humanoidモデル全てに適用可）、機能も豊富で（異なる身長のモデルへの Embodiment など）、実験フローの管理を支援するプログラムなども提供されているようです。2022/11/18閲覧時点ではまだいくつかのバグを抱えているようですが、動向を見守りたいと思います。
