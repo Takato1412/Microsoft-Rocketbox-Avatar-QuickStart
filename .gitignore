@@ -11,10 +11,10 @@
 /[Mm]emoryCaptures/
 
 # Ignore Assets by default
-/Assets/*
+/Assets/**/*
 # Keep Assets mentioned below are kept
 !/Assets/MicrosoftRocketboxAvatars/
-!/Assets/MicrosoftRocketbocMovebox/
+!/Assets/MicrosoftRocketboxMovebox/
 !/Assets/MirrorReflection/
 !/Assets/MizuhoLab/
 !/Assets/Scenes/
