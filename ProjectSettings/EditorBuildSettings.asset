@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MicrosoftRocketboxAvatar_HandTracking.unity
+    guid: 6a828e65a5d2e334ab9056fcd5aee5d0
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c3abf91caf0e26f4aa64d94398835196, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 63257082afd6f744498d556a9cf7223a, type: 2}
