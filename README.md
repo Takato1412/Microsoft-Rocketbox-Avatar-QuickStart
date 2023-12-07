@@ -18,8 +18,11 @@ https://user-images.githubusercontent.com/40706341/202663909-6ec48c7d-7cd8-4836-
 以下のサイトを参考に、Unity のセットアップをしてください。
 https://framesynthesis.jp/tech/unity/oculusquest/
 
+> [!WARNING]
+> Oculus Integration が deprecated (非推奨) になり、代わりに Meta XR Core SDK などのアセットを使うようになりました。2023/12/7 時点では、(OVRCameraRigなどのGUIDが変わっていなかったので)、どちらを使っても問題なく動作しました。しかし、今後のことを考えると、Meta XR Core SDK に移行する方が賢明だと思います。
+
 ### 2. Asset Store (Package Manager) から外部アセットをインポート
-Oculus Integration 以外に、以下のアセットを使用するため、インポートしてください。
+Meta XR Core SDK (Oculus Integration) 以外に、以下のアセットを使用するため、インポートしてください。
 
 - [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290): 有料アセット。頭、右手、左手の三点のトラッキング情報から、アバタの全身動作を計算します。必須ではありませんが、無料のIKよりも精度が良いように思ったため、採用しています。
 - [SAColliderBuilder](https://assetstore.unity.com/packages/tools/sacolliderbuilder-15058): 無料アセット。アバタの形に沿うようにコライダを生成し、外界とのインタラクションを可能にします。
