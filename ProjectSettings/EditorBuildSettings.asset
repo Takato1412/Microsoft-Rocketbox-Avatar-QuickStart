@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/MicrosoftRocketboxAvatar_HandTracking.unity
     guid: 6a828e65a5d2e334ab9056fcd5aee5d0
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c3abf91caf0e26f4aa64d94398835196, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 63257082afd6f744498d556a9cf7223a, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d4357cbe1b7542541a93575b17024824, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 237bcc5a6845d87468681dfd8fe88fc6, type: 2}
