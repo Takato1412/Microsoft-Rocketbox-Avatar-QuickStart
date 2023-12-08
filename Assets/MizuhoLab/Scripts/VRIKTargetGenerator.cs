@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class VRIKTargetGenerator : MonoBehaviour
 {
-    public Transform OVRCameraRig = default;
+    [SerializeField] Transform OVRCameraRig = default;
 
-    public RootMotion.FinalIK.VRIK vrik = default;
+    [SerializeField] RootMotion.FinalIK.VRIK vrik = default;
 
+    // IK Targets
     private Transform headTarget = default;
     private Transform leftHandTarget = default;
     private Transform rightHandTarget = default;
@@ -25,12 +26,12 @@ public class VRIKTargetGenerator : MonoBehaviour
         { "RightFootTarget", "TrackingSpace/"},
     };
 
-    //ハンドトラッキングの種類：Oculus touch コントローラ vs Quest Hand Tracking
     public enum HandTrackingType
     {
         OculusTouch, QuestHandTracking
     }
-    public HandTrackingType handTrackingType = HandTrackingType.OculusTouch;
+    [SerializeField]
+    HandTrackingType handTrackingType = HandTrackingType.OculusTouch;
 
     // Start is called before the first frame update
     void Start()
@@ -44,8 +45,8 @@ public class VRIKTargetGenerator : MonoBehaviour
         
     }
 
-    [ContextMenu("Generate(Update) Targets in OVRCameraRig")]
-    public void GenerateTarget()
+    [ContextMenu("Generate (Update) Targets in OVRCameraRig")]
+    public void GenerateTargets()
     {
         Dictionary<string, Vector3> targetLocalPositionList = new Dictionary<string, Vector3>
         {
@@ -87,7 +88,7 @@ public class VRIKTargetGenerator : MonoBehaviour
 
     }
 
-    [ContextMenu("Destroy Targets from OVRCameraRig")]
+    [ContextMenu("Remove Targets from OVRCameraRig")]
     public void DeleteTargets()
     {
         for (int i = 0; i < targetNameList.Length; i++)
