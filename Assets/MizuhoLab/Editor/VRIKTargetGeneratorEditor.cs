@@ -11,6 +11,9 @@ public class VRIKTargetGeneratorEditor : Editor
     SerializedProperty handTrackingType;
     SerializedProperty vrik;
 
+    // For foldout
+    bool isOpen;
+
     private void OnEnable()
     {
         OVRCameraRig = serializedObject.FindProperty("OVRCameraRig");
@@ -32,13 +35,16 @@ public class VRIKTargetGeneratorEditor : Editor
         EditorGUILayout.ObjectField("Editor", MonoScript.FromScriptableObject(this), typeof(MonoScript), false);
         EditorGUI.EndDisabledGroup();
 
+        //EditorGUILayout.Space();
+        GUILayout.Box("", GUILayout.Height(2), GUILayout.ExpandWidth(true));
+
         // Generate Targets
-        EditorGUILayout.LabelField("Generate or Update Targets", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Generate / Update Targets in OVRCameraRig", EditorStyles.boldLabel);
 
         EditorGUILayout.PropertyField(OVRCameraRig);
 
         EditorGUILayout.PropertyField(handTrackingType);
-
+        
         using (new EditorGUILayout.HorizontalScope())
         {
             GUILayout.FlexibleSpace();
@@ -47,13 +53,15 @@ public class VRIKTargetGeneratorEditor : Editor
                 generator.GenerateTargets();
             }
         }
-        
+
+        //EditorGUILayout.Space();
+        GUILayout.Box("", GUILayout.Height(2), GUILayout.ExpandWidth(true));
 
         // Register Targets
         EditorGUILayout.LabelField("Register Targets to VRIK", EditorStyles.boldLabel);
 
         EditorGUILayout.PropertyField(vrik);
-
+        
         using (new EditorGUILayout.HorizontalScope())
         {
             GUILayout.FlexibleSpace();
@@ -62,7 +70,6 @@ public class VRIKTargetGeneratorEditor : Editor
                 generator.RegisterTargets();
             }
         }
-
 
         serializedObject.ApplyModifiedProperties();
     }
