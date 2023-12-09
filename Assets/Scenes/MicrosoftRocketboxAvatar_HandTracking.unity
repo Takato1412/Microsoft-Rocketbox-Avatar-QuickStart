@@ -591,6 +591,38 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9146791279147218300, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
   m_PrefabInstance: {fileID: 8023963291376702234}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1297028063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297028062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0fe0b2d44105c4ab01d1fcf19ab662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelHeight: 1.74
+  modelEyeHeight: 1.61
+  modelPelvisHeight: 0.8
+  userHeight: 1.68
+  hmd: {fileID: 8023963291376702235}
+  pelvis: {fileID: 0}
+  mode: 1
+--- !u!114 &1297028064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297028062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21c46112fc56d4643bca455b07c95943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scale: 1
 --- !u!1001 &1311272639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1058,6 +1090,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 239697801319119091, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+      propertyPath: scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 964176647160618680, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+      propertyPath: mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 964176647160618680, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+      propertyPath: userHeight
+      value: 1.68
+      objectReference: {fileID: 0}
     - target: {fileID: 8023963290665151314, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
       propertyPath: m_Name
       value: OVRCameraRig+MSRAwithHandTracking
@@ -1102,11 +1146,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9146791279147218300, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9146791279147218300, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297028064}
+    - targetCorrespondingSourceObject: {fileID: 9146791279147218300, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297028063}
   m_SourcePrefab: {fileID: 100100000, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+--- !u!4 &8023963291376702235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8023963291334484101, guid: 0cf9571930a7a4443b4f15daf0bc7b36, type: 3}
+  m_PrefabInstance: {fileID: 8023963291376702234}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &9014259281287857364
 PrefabInstance:
   m_ObjectHideFlags: 0

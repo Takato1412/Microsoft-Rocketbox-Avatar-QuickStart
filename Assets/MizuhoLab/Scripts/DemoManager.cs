@@ -35,8 +35,8 @@ public class DemoManager : MonoBehaviour
 
     public void CalibrateAvatar()
     {
-        maleAvatar.GetComponent<VRIKCalibrator>().Calibrate();
-        femaleAvatar.GetComponent<VRIKCalibrator>().Calibrate();
+        maleAvatar.GetComponent<VRIKScalerCalibrator>().CalibrateByHMD();
+        femaleAvatar.GetComponent<VRIKScalerCalibrator>().CalibrateByHMD();
         //GameObject.Find("AvatarCalibrateButton").SetActive(false);
     }
 }

@@ -1082,6 +1082,22 @@ PrefabInstance:
       propertyPath: handTrackingType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5842829677008948673, guid: c959d41722f628648a0c6f1e6f9bcbe3, type: 3}
+      propertyPath: mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842829677008948673, guid: c959d41722f628648a0c6f1e6f9bcbe3, type: 3}
+      propertyPath: userHeight
+      value: 1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225611843036907151, guid: c959d41722f628648a0c6f1e6f9bcbe3, type: 3}
+      propertyPath: mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225611843036907151, guid: c959d41722f628648a0c6f1e6f9bcbe3, type: 3}
+      propertyPath: userHeight
+      value: 1.68
+      objectReference: {fileID: 0}
     - target: {fileID: 9114702994868924846, guid: c959d41722f628648a0c6f1e6f9bcbe3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
