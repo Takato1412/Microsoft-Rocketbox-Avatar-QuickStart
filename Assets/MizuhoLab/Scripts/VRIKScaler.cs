@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(VRIK))]
-class VRIKScaler : MonoBehaviour
+public class VRIKScaler : MonoBehaviour
 {
     [SerializeField, Range(0.1f, 5f)]
     public float scale = 1f;
