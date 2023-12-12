@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 425662912}
   - component: {fileID: 425662918}
   m_Layer: 0
-  m_Name: OVRLipSync
+  m_Name: OVRLipSyncInterface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
